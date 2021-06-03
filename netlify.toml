@@ -1,7 +1,7 @@
 [build]
-  command = "ng build --prod"
+  command = "ng build --prod && npm run scully"
   functions = "netlify/functions"
-  publish = "dist/scully-template-project"
+  publish = "dist/static"
 
 [[redirects]]
   from = "/*"
