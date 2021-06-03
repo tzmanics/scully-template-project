@@ -1,0 +1,9 @@
+[build]
+  command = "ng build --prod"
+  functions = "netlify/functions"
+  publish = "dist/scully-template-project"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
