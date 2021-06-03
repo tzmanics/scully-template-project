@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 200;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 100;
+  padding: 100px 300px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
